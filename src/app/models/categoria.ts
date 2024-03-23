@@ -14,7 +14,7 @@ export class Categoria extends CategoriaBase {
     public _id: string,
     nome: string
   ) {
-    super(nome); // Chamando o construtor da classe base com o parâmetro 'nome'
+    super(nome);
   }
 
 }
@@ -25,7 +25,7 @@ export class CategoriaDetalhes extends CategoriaBase {
     public filmes: Filmes[],
     nome: string
   ) {
-    super(nome); // Chamando o construtor da classe base com o parâmetro 'nome'
+    super(nome);
   }
 
 }
